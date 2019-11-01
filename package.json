@@ -1,0 +1,29 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:dantehemerson/utils.git",
+  "author": "Dante Calderon <mail@dantecalderon.dev>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "test": "jest",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "mongodb": "^3.3.3",
+    "mongoose": "^5.7.7"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.21",
+    "@types/mongodb": "^3.3.8",
+    "@types/node": "^12.12.5",
+    "bluebird": "^3.7.1",
+    "jest": "^24.9.0",
+    "rimraf": "^3.0.0",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  }
+}
